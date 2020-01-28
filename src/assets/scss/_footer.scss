@@ -1,0 +1,41 @@
+.contact {
+  padding: 4em;
+  background-color: #f6fafd;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  input {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 1px solid $primary;
+    width: 80%;
+  }
+
+  textarea {
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 1px solid $primary;
+    width: 80%;
+  }
+  button {
+    border: none;
+  }
+
+  figure {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

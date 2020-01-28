@@ -1,0 +1,125 @@
+.service {
+  padding: 4em;
+  text-align: center;
+
+  .heading-2 {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -0.5em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5em;
+      height: 1px;
+      background-color: rgba($primary, 0.5);
+    }
+  }
+
+  i {
+    color: $primary;
+    font-size: 2.2rem;
+    display: block;
+    margin-bottom: 1em;
+  }
+  &-grid {
+    display: grid;
+    margin-top: 5em;
+    grid-gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
+
+    &-block {
+      transition: all 0.5s;
+      padding: 2em;
+      &:hover {
+        box-shadow: 2px 2px 12px rgba(#000, 0.2);
+      }
+    }
+  }
+}
+
+.fixed {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary, 0.2),
+      rgba($primary, 0.2)
+    ),
+    url(../img/img-9.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/// doctors
+
+.doctors {
+  padding: 4em;
+  text-align: center;
+
+  .heading-2 {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -0.5em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5em;
+      height: 1px;
+      background-color: rgba($primary, 0.5);
+    }
+  }
+
+  &-grid {
+    display: grid;
+    margin-top: 5em;
+    grid-gap: 3em;
+    grid-template-columns: repeat(4, 1fr);
+
+    figure {
+      transition: all 0.5s;
+      &:hover {
+        box-shadow: 2px 2px 12px rgba(#000, 0.2);
+      }
+
+      .name {
+        color: #444444;
+        font-size: 1.4rem;
+        display: block;
+        margin-bottom: 0.5em;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -0.1em;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 3em;
+          height: 1px;
+          background-color: rgba($primary, 0.5);
+        }
+      }
+      .content {
+        padding: 1.5em;
+      }
+    }
+  }
+}
+
+.fixed-doctors {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary, 0.2),
+      rgba($primary, 0.2)
+    ),
+    url(../img/img-2.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

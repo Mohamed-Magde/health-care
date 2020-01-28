@@ -1,0 +1,41 @@
+.about {
+  background-color: #f6fafd;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+  }
+
+  figure {
+    height: 100%;
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-title {
+    &-block {
+      &-item {
+        margin-top: 2em;
+        display: flex;
+        align-items: flex-start;
+
+        p {
+          width: 70%;
+        }
+
+        i {
+          display: block;
+          margin-right: 1em;
+          color: $primary;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

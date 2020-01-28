@@ -1,0 +1,39 @@
+.nav {
+  padding: 2em 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-list {
+    display: flex;
+    list-style: none;
+
+    &-item {
+      margin-right: 1.5em;
+      color: #999999;
+      transition: all 0.5s;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    p {
+      font-size: 2rem;
+    }
+    i {
+      display: block;
+      margin-bottom: 0;
+      margin-left: 0.5em;
+      color: $primary;
+      font-size: 2rem;
+    }
+  }
+}

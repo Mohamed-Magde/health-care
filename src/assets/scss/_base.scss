@@ -1,0 +1,70 @@
+$primary: #007bff;
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.7;
+  color: #999999;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+// typography
+.heading-1 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  color: #444444;
+}
+
+.heading-2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  color: #444444;
+}
+
+.heading-3 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  color: #444444;
+}
+
+///
+.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  padding: 1em 2em;
+  margin-top: 2.5em;
+  display: block;
+  align-self: center;
+  width: 30%;
+  border-radius: 10px;
+  transition: all 0.5s;
+
+  &:hover {
+    color: $primary;
+    border: 1px solid $primary;
+    background-color: #fff;
+  }
+}
