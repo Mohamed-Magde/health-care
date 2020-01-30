@@ -1,5 +1,6 @@
 .nav {
   padding: 2em 0;
+  padding-top: 3em;
   .container {
     display: flex;
     align-items: center;
@@ -26,14 +27,12 @@
     cursor: pointer;
 
     p {
-      font-size: 2rem;
+      font-size: 1.7rem;
     }
-    i {
+    img {
+      width: 3.5em;
+      height: 3.5em;
       display: block;
-      margin-bottom: 0;
-      margin-left: 0.5em;
-      color: $primary;
-      font-size: 2rem;
     }
   }
 }

@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/img/elshar.png";
 const Navbar = () => {
   return (
     <nav className="nav">
       <div className="container">
         <div className="logo">
-          <p> Logo</p>
-          <i className="fab fa-slack"></i>
+          <figure>
+            <img src={logo} alt="" className="logo-img" />
+          </figure>
+          <p> Heath Care</p>
         </div>
 
         <ul className="nav-list">

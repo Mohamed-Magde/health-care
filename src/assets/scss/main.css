@@ -50,7 +50,7 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #1c55a6;
   padding: 1em 2em;
   margin-top: 2.5em;
   display: block;
@@ -64,13 +64,14 @@ a {
 }
 
 .btn-primary:hover {
-  color: #007bff;
-  border: 1px solid #007bff;
+  color: #1c55a6;
+  border: 1px solid #1c55a6;
   background-color: #fff;
 }
 
 .nav {
   padding: 2em 0;
+  padding-top: 3em;
 }
 
 .nav .container {
@@ -100,7 +101,7 @@ a {
 }
 
 .nav-list-item:hover {
-  color: #007bff;
+  color: #1c55a6;
 }
 
 .nav .logo {
@@ -114,15 +115,13 @@ a {
 }
 
 .nav .logo p {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
-.nav .logo i {
+.nav .logo img {
+  width: 3.5em;
+  height: 3.5em;
   display: block;
-  margin-bottom: 0;
-  margin-left: 0.5em;
-  color: #007bff;
-  font-size: 2rem;
 }
 
 .hero {
@@ -194,7 +193,7 @@ a {
 .about-title-block-item i {
   display: block;
   margin-right: 1em;
-  color: #007bff;
+  color: #1c55a6;
   font-size: 2rem;
 }
 
@@ -216,11 +215,11 @@ a {
           transform: translateX(-50%);
   width: 5em;
   height: 1px;
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(28, 85, 166, 0.5);
 }
 
 .service i {
-  color: #007bff;
+  color: #1c55a6;
   font-size: 2.2rem;
   display: block;
   margin-bottom: 1em;
@@ -230,9 +229,11 @@ a {
   display: -ms-grid;
   display: grid;
   margin-top: 5em;
-  grid-gap: 3em;
+  grid-gap: 2em;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
 .service-grid-block {
@@ -249,8 +250,8 @@ a {
 .fixed {
   width: 100vw;
   height: 70vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 123, 255, 0.2)), to(rgba(0, 123, 255, 0.2))), url(../img/img-9.jpg);
-  background-image: linear-gradient(to right bottom, rgba(0, 123, 255, 0.2), rgba(0, 123, 255, 0.2)), url(../img/img-9.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(28, 85, 166, 0.2)), to(rgba(28, 85, 166, 0.2))), url(../img/img-9.jpg);
+  background-image: linear-gradient(to right bottom, rgba(28, 85, 166, 0.2), rgba(28, 85, 166, 0.2)), url(../img/img-9.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -274,7 +275,7 @@ a {
           transform: translateX(-50%);
   width: 5em;
   height: 1px;
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(28, 85, 166, 0.5);
 }
 
 .doctors-grid {
@@ -313,7 +314,7 @@ a {
           transform: translateX(-50%);
   width: 3em;
   height: 1px;
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(28, 85, 166, 0.5);
 }
 
 .doctors-grid figure .content {
@@ -323,8 +324,8 @@ a {
 .fixed-doctors {
   width: 100vw;
   height: 70vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 123, 255, 0.2)), to(rgba(0, 123, 255, 0.2))), url(../img/img-2.jpg);
-  background-image: linear-gradient(to right bottom, rgba(0, 123, 255, 0.2), rgba(0, 123, 255, 0.2)), url(../img/img-2.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(28, 85, 166, 0.2)), to(rgba(28, 85, 166, 0.2))), url(../img/img-2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(28, 85, 166, 0.2), rgba(28, 85, 166, 0.2)), url(../img/img-2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -348,7 +349,7 @@ a {
   padding-bottom: 1em;
   margin-bottom: 2em;
   border-radius: 5px;
-  border: 1px solid #007bff;
+  border: 1px solid #1c55a6;
   width: 80%;
 }
 
@@ -358,7 +359,7 @@ a {
   padding-bottom: 1em;
   margin-bottom: 2em;
   border-radius: 5px;
-  border: 1px solid #007bff;
+  border: 1px solid #1c55a6;
   width: 80%;
 }
 
